@@ -81,27 +81,41 @@ nav {
   position: relative;
 }
 
+.content {
+  position: relative;
+  background-color: #D3D4D3;
+  padding-bottom: 20px;
+}
+
+.content-inner {
+  position: relative;
+  padding-top: 50px;
+}
+
+.content-photo {
+  text-align: center;
+}
+
 .piano_pic {
   max-height: 30%;
   max-width: 75%;
 }
 
 .piano_pic_trans {
-  max-height: 30%;
-  max-width: 75%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  line-height: 0; /* prevent small white space after image */
+}
+
+.piano_pic_trans img {
   opacity: 0.2;
-  position: relative;
 }
 
 .bio_pic {
-  position: relative;
-  bottom: 980px;
-  max-width: 32%;
-  max-height: 32%;
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
+  max-width: 21%;
 }
 
 .name {
@@ -111,9 +125,7 @@ nav {
 }
 
 .page_text {
-  position: relative;
   color: black;
-  bottom: 925px;
   text-align: center;
   font-family: Helvetica;
   font-size: 20px;
