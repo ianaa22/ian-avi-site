@@ -1,0 +1,137 @@
+html, body {
+  overflow-x: hidden;
+  /*background-color: #FDF4EE;*/
+  background-color: white;
+}
+
+@font-face {
+  font-family: "headerfont";
+  src: url(../fonts/NexaRustSans-Black-Free.otf);
+}
+
+header {
+  font-family: "headerfont", sans-serif;
+  position: center;
+  margin-top: -5px;
+  font-size: 30px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  /*color: #D22636;
+  color: #F67925;*/
+  color: #ff4d00;
+}
+
+header p {
+  color: #4D4D4D;
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+nav li {
+  margin: 20px;
+  float: left;
+  display: inline;
+}
+
+nav a:link, a:visited {
+  text-decoration: none;
+  display: block;
+  width: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding: 10px 32px;
+  color: black;
+  background-color: #FFE7E7;
+  border: solid 3px #D22636;
+  border-radius: 30px;
+
+}
+
+nav a:hover, a:active {
+  color: #D22636;
+  background-color: #FDFCFA;
+}
+
+nav a.current_link:link, a.current_link:visited {
+  color: #D22636;
+  background-color: #FDFCFA;
+}
+
+nav {
+  width: 100%;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.piano_pic {
+  max-height: 30%;
+  max-width: 75%;
+}
+
+.piano_pic_trans {
+  max-height: 30%;
+  max-width: 75%;
+  opacity: 0.2;
+  position: relative;
+}
+
+.bio_pic {
+  position: relative;
+  bottom: 980px;
+  max-width: 32%;
+  max-height: 32%;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+
+.name {
+  color: #ff4d00;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.page_text {
+  position: relative;
+  color: black;
+  bottom: 925px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+  margin: 0px 100px;
+  line-height: 125%;
+}
+
+footer {
+  background-size: 100% 100%;
+  height: 80px;
+}
+
+.copywrite {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  position: relative;
+  top: 30px;
+}
+
